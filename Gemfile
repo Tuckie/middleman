@@ -39,3 +39,5 @@ gem 'coveralls', :require => false
 gem "middleman-core", :path => "middleman-core"
 gem "middleman-sprockets", :github => "middleman/middleman-sprockets"
 gem "middleman", :path => "middleman"
+  # used until kramdown 1.3 is released
+gem "kramdown", :git => 'https://github.com/gettalong/kramdown.git'
