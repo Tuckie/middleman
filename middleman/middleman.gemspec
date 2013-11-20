@@ -26,6 +26,4 @@ Gem::Specification.new do |s|
   s.add_dependency("uglifier", ["~> 2.1.0"])
   s.add_dependency("coffee-script", ["~> 2.2.0"])
   s.add_dependency("execjs", ["~> 1.4.0"])
-  # used until kramdown 1.3 is released
-  s.add_dependency("kramdown", [":git => 'https://github.com/gettalong/kramdown.git'"])
 end
